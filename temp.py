@@ -1,7 +1,4 @@
 import numpy as np
-s=10*698*179*232
-print(s)
-print("hello there.")
-print("hi")
-
-print(str(5+2))
+x=np.array([i*0.2 for i in range(501)])
+y=2*x+9
+print(y)
